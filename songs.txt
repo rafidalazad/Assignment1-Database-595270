@@ -1,0 +1,10 @@
+1, Lose Yourself, Eminem, 2002, Hip-Hop
+2, Thunderstruck, AC/DC, 1990, Rock
+3, Shape of You, Ed Sheeran, 2017, Pop
+4, Blinding Lights, The Weeknd, 2020, R&B
+5, Billie Jean, Michael Jackson, 1982, Pop
+6, Bohemian Rhapsody, Queen, 1975, Rock
+7, Rolling in the Deep, Adele, 2011, Soul
+8, Smells Like Teen Spirit, Nirvana, 1991, Grunge
+9, Wonderwall, Oasis, 1995, Alternative Rock
+10, Despacito, Luis Fonsi ft. Daddy Yankee, 2017, Reggaeton
