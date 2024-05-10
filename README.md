@@ -11,9 +11,9 @@ test_avl_tree.c: Unit tests for AVL tree functionality.
 test_hash_table.c: Unit tests for hash table functionality.
 songs_playlists_test_data.py: Python script to generate test data (songs.txt and playlists.txt).
 Building the Project
-To build the project, ensure you have a C compiler (e.g., GCC,visual studio etc) and Python installed on your system. Follow these steps:
+To build the project, ensure you have a C compiler (e.g., GCC,visual studio etc) and Python installed on your system. Follow these steps for the easiest way to test it:
 
-Compiling the C Code
+After Compiling the C Code
 Run the following commands in your terminal:
 
 .bash
@@ -29,6 +29,8 @@ To generate test data files, run the Python script:
 .bash
 
 python3 songs_playlists_test_data.py
+
+
 Running the Tests
 To run the unit tests for the AVL tree and hash table:
 
@@ -36,6 +38,8 @@ To run the unit tests for the AVL tree and hash table:
 
 ./test_avl
 ./test_hash
+
+
 Running the Main Program
 To run the main program which integrates all components:
 
