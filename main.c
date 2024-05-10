@@ -3,7 +3,6 @@
 #include "avl_tree.h"
 #include "hash_table.h"
 
-// Function prototypes
 void populateAVLTree(AVLNode **root, int numNodes);
 void populateHashTable(int numEntries);
 
