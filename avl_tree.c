@@ -68,4 +68,25 @@ AVLNode* insertAVLNode(AVLNode* node, int key, char *data) {
     // If unbalanced, then 4 cases
     if (balance > 1 && key < node->left->key)
         return rightRotate(node);
-    if (balance < -1 &&
+    if (balance < -1 && key > node->right->key)
+        return leftRotate(node);
+    if (balance > 1 && key > node->left->key) {
+        node->left = leftRotate(node->left);
+        return rightRotate(node);
+    }
+    if (balance < -1 && key < node->right->key) {
+        node->right = rightRotate(node->right);
+        return leftRotate(node);
+    }
+    return node;
+}
+
+// A utility function to print the tree in in-order
+void printInOrderAVL(AVLNode *root) {
+    if (root != NULL) {
+        printInOrderAVL(root->left);
+        printf("%d ", root->key);
+        printInOrderAVL(root->right);
+    }
+}
+
